@@ -1,0 +1,65 @@
+#container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12em;
+}
+#greet {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
+  display: flex;
+  height: 22em;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraGraph {
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  gap: 7em;
+  height: 10em;
+}
+.lpara {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 12px;
+  position: relative;
+  top: 2em;
+  left: 0px;
+}
+.rpara {
+  width: 28em;
+  margin: 10px;
+  padding: 12px;
+  position: relative;
+  left: 5em;
+}
+p {
+  position: relative;
+  bottom: 1em;
+  left: 3em;
+  text-align: center;
+  transition: transform 0.5s ease-out 0.4s;
+  transition: box-shadow 0.35s;
+}
+img {
+  opacity: 1;
+  position: relative;
+  bottom: 15px;
+}
+#css {
+  position: relative;
+  bottom: 2.5em;
+  right: 5em;
+  height: auto;
+  width: 125%;
+}
+#html {
+  position: relative;
+  bottom: 2.5em;
+}
+p:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 5px black;
+}

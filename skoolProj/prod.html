@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prod.css">
+    <link rel="stylesheet" href="base.css">
+    <title>The Game</title>
+</head>
+<body>
+    <nav>
+        <h1 id="firstHead">GHTE</h1>
+        <ul>
+          <a href="main.html"><li>Home</li></a>
+          <a href="prod.html"><li>Product</li></a>
+          <a href="signIn.html"><li>Login</li>
+          <a href="about.html"><li>About</li></a>
+        </ul>
+      </nav>
+
+      <div id="container2">
+
+        <h1 id="prodHead">
+          Guess The Number
+        </h1>
+
+        <div id="declQuest">
+
+          <label for="quest">
+            Guess The Number WithIn 1 - : (Select the constraint number)  
+          </label>
+
+          <input  type="number" name="quest" placeholder="Enter The Upper Limit" id="inpBox">
+
+          
+
+        </div>
+        <button id="fenter" class="enter">
+          Enter
+        </button>
+
+        <div id="num_guess">
+
+        <h2 id="inf" style="position: relative; bottom: 25px;">Toggle The Switch <br> And Guess Your Number</h2>
+
+        <div id="disp_scrn">
+
+          <h2 id="display"></h2>
+          
+        </div>
+
+        <div id="btns">
+          
+          
+          <button id="decrease" class="btnInDe">Decrease</button>
+          <button id="reset"class="btnInDe">Reset</button>
+          <button id="increase"class="btnInDe">Increase</button>
+        </div>
+        <div id="btns2">
+          
+          <button id = "inc10"class="btnInDe">Add 10</button>
+          <button id="dec10"class="btnInDe">Subtract 10</button>
+          <button id = "lenter" class="enter">
+            Enter
+          </button>
+        </div>
+        
+
+       
+
+      </div>
+      <div id="ans">
+
+        <p id="stat">
+
+        </p>
+        <p id="bar">
+          
+        </p>
+        <p id="resultDisplay">
+          
+        </p>
+      
+      </div>
+      </div>
+
+      <script src="prod.js"></script>
+</body>
+</html>
